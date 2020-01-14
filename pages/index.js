@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import Head from 'next/head'
 
 
 
@@ -62,6 +63,9 @@ export default () => {
 
 	return (
 		<main>
+		<head>
+		<meta name="google-site-verification" content="bu3hhX3umS2587rd4G5kH3WNI-dHolYRCgFfIyGFdbs" />
+		</head>
 			<form onSubmit={handleOnSubmit}>
 				<label htmlFor="email">Email</label>
 				<input
