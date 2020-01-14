@@ -63,9 +63,9 @@ export default () => {
 
 	return (
 		<main>
-		<head>
+		<Head>
 		<meta name="google-site-verification" content="bu3hhX3umS2587rd4G5kH3WNI-dHolYRCgFfIyGFdbs" />
-		</head>
+		</Head>
 			<form onSubmit={handleOnSubmit}>
 				<label htmlFor="email">Email</label>
 				<input
